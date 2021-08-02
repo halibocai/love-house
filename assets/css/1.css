@@ -45,7 +45,7 @@ nav{
 .left1 img{
 	width:450px;
 	height:480px;
-	margin-left:15%;
+	margin-left:16%;
 	margin-top:70px;
 	display:inline-block;
 }
@@ -59,7 +59,8 @@ nav{
 .right1{
 	height:510px;
 	margin-top:130px;
-	margin-left:20%;
+	float:right;
+	margin-right:6%;
 }
 .right1 h1{
 	margin-left:34%;
