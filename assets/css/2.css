@@ -1,0 +1,198 @@
+/*导航*/
+nav{
+	height:61px;
+	width:100%;
+	background-color:#EB6864;
+	border-top:0;
+	position:fixed;
+	margin-top:-8px;
+	margin-left:-8px;
+}
+.logo{
+	width:200px;
+	height:61px;
+	display:inline-block;
+	margin-left:20px;
+}
+.logo:hover{
+	cursor:default;
+}
+.right{
+	position:fixed;
+	right:25px;
+	top:0;
+}
+.right a{
+	font-size:18px;
+	color:#fff;
+	text-decoration:none;
+	/*width:100x;*/
+	height:61px;
+	display:inline-block;
+	padding:0 20px;
+	line-height:61px;
+}
+.right a:hover{
+	background-color:#EDEEF0;
+	color:#7D7D7D;
+}
+/*大标题*/
+.report_name h1{
+	display:inline-block;
+	margin-top:110px;
+	margin-left:3%;
+	font-size:58px;
+	letter-spacing:10px;
+	font-family:STXiHei,"华文细黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
+	color:#EB6864;
+}
+.report_name hr{
+	margin-left:3%;
+	margin-top:-10px;
+	height:2px;
+	width:94%;
+	border:0;
+	background-color:#EB6864;
+}
+/*作者*/
+.members{
+	margin-top:45px;
+	margin-left:3%;
+}
+.members p{
+	color:#EB6864;
+	font-family:SimSun,"宋体";
+	font-size:20px;
+	line-height:35px;
+	letter-spacing:3px;
+	font-style: italic;
+	font-weight:bold;
+}
+/*正文*/
+.report{
+	font-family:STXiHei,"华文细黑";
+	margin-left:3%;
+	margin-top:50px;
+	width:94%;
+	color:#6d6d6d;
+}
+.report p{
+	font-size:18px;
+	line-height:36px;
+	text-indent:2em;
+}
+.report img{
+	display:block;
+	width:580px;
+	height:420px;
+	margin:0px auto;
+	margin-bottom:30px;
+}
+.comics img{
+	display:block;
+	width:480px;
+	height:400px;
+	margin:0px auto;
+	margin-bottom:50px;
+}
+.comics_left img{
+	display:inline-block;
+	float:left;
+	width:480px;
+	height:400px;
+	margin-bottom:50px;
+	margin-left:18%;
+	margin-right:0;
+}
+.comics_right img{
+	display:inline-block;
+	float:left;
+	width:480px;
+	height:400px;
+	margin-bottom:50px;
+	margin-left:-12%;
+}
+.report h2{
+	text-align:center;
+	letter-spacing:3px;
+	color:#EB6864;
+}
+/*功能*/
+.left_click table{
+	width:240px;
+	height:140px;	
+	text-align:center;
+	letter-spacing:10px;
+	font-size:20px;
+	border-color:#EB6864;
+}
+.left_click{
+	display:inline-block;
+	margin-left:5%;
+	margin-top:5%;
+}
+.news{
+	background-color:#EB6864;
+}
+.news a{
+	color:#fff;
+}
+.home a{
+	color:#EB6864;
+}
+.news,.home:hover{
+	cursor:pointer;
+}
+.left_click a{
+    text-decoration:none;
+}
+.share_icon{
+	display:inline-block;
+	margin-left:25%;
+}
+.bottom .share_icon .github_icon{
+	clear: both;
+	display:inline-block;
+	width:45px;
+    height:44px;
+	text-decoration:none;
+	opacity:0.5;
+}
+
+.bottom .share_icon .github_icon:hover{
+	opacity:1;
+}
+.bottom .share_icon .weibo_icon{
+	
+	clear: both;
+	display:inline-block;
+    width:70px;
+    height:43px;
+	margin-left:20px;
+	opacity:0.5;
+}
+.bottom .share_icon .weibo_icon:hover{
+	opacity:1;
+}
+/*脚注部分*/
+.left5 img{
+	display:inline-block;
+	float:left;
+	width:90px;
+	height:90px;	
+    margin-left:31%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.right5 p{
+	display:inline-block;
+	float:left;
+	font-size:14px;
+	color:#a1a1a1;
+	line-height:26px;
+    margin-left:50px;
+    margin-top:2%;
+}
+.right5{
+	margin-top:2%;
+}
