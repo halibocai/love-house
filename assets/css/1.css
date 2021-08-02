@@ -109,14 +109,12 @@ nav{
 	background-color:#ecd6c7;/*#f6c2c2;*/
 	height:510px;	
 }
-.part2 h2{
-	display:block;
-    float:left;
-	margin-left:3%;
-	margin-top:-3%;
+.part2 .top2 h2{
+	position: absolute;
+	left:2%;
 	letter-spacing:5px;
 	font-family:STXiHei,"华文细黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
-	color:#e79686;/*#EB6864;*/
+	color:#e79686;
 	font-size:36px;
 }
 .part2 h2:hover{
@@ -124,13 +122,13 @@ nav{
 }
 .top2 hr{
 	height:2px;
-	background-color:#e79686;/*#EB6864;*/
-	margin-left:-13%;
-	margin-top:2%;
+	background-color:#e79686;
+	margin-left:1%;
+	margin-top:1%;
 	float:left;
 	display:block;
 	border:0;
-	width:30%;
+	width:36%;
 }
 .left2 p{
 	display:inline-block;
@@ -138,34 +136,29 @@ nav{
 	margin-top:6%;
 	margin-left:-23%;
 	letter-spacing:2px;
-	color:#e79686;/*#EB6864;*/
+	color:#e79686;
 	line-height:35px;
 	font-size:17px;
 	font-family:STXiHei,"华文细黑";
-	 /* text-shadow:0 1px 0 #eee,
-                       0 2px 0 #ccc;
-                         0 3px 0 #bababa,
-                         0 4px 0 #aaa;
-                     0 5px 0 #999;
-                      0 5px 0 #999;
-                        0 6px 0 #888,
-                        0 7px 0 #777;*/
-}
-.middle2 img{
+	}
+
+.part2 .middle2 img{
 	display:inline-block;
 	float:left;
     margin-left:-110px;
-	margin-top:14%;
-	
+	margin-top:13%;
 	width:170px;
 	height:170px;
 }
 .right2 video{
 	display:inline-block;
-	float:left;
 	margin-top:1%;
 	margin-left:22%;
 }
+
+
+
+
 /*婚恋观居住观部分*/
 .left3{
 	background-color:#ED8683;
