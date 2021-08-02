@@ -9,10 +9,11 @@ nav{
 	margin-left:-8px;
 }
 .logo{
-	width:200px;
-	height:61px;
+	width:280px;
+	height:90%;
 	display:inline-block;
 	margin-left:20px;
+	margin-top:5px;
 }
 .logo:hover{
 	cursor:default;
